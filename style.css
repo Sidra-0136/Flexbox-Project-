@@ -3,61 +3,56 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
 
-body {
-  background: #fff;
-}
-
-/* NAVBAR */
-.navbar {
+.head {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 15px 40px;
-  
-}
-
- a {
-   margin: 0px 10px;
-  text-decoration: none;
-  color: #000;
-  font-weight: 500px;
-  font-size: 17.16;
-}
-
-.help-btn {
-  background: #75BF7A;
-  color: white;
-  border: none;
-  width: 182px;
-  height: 50px;
-  border-radius: 5.59px;
-  
-}
-
-/* HERO */
-.hero {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 50px;
+  padding-top: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.hero-text {
-  width: 50%;
+.logo {
+width: 93px;
+height: 26.35;
 }
 
-.hero-image img {
-  width: 300px;
+.menu {
+  width: 19.03px;
+  height: 14.5px;
 }
 
-.buttons {
+.hero-img {
   display: flex;
-flex-direction: row;
-  
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+  .arrow {
+  position: absolute;
+  width: 228.82px;
+  height: 214.39px;
+  padding: 20px;
+  left: 14%;
+}
+
+.car {
+padding-top: 50px;
+}
+
+.sun {
+  position: absolute;
+  padding-top: 70px;
+  left: 65%;
 }
 
 
